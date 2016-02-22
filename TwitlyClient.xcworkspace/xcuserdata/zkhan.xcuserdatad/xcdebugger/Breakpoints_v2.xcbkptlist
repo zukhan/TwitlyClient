@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitlyClient/User.swift"
+            timestampString = "477809154.240374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "User"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitlyClient/TweetsViewController.swift"
+            timestampString = "477814304.006002"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TweetsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.__deallocating_deinit"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812028.219824"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.init (TwitlyClient.TweetsViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TwitlyClient.TweetsViewController"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812028.219992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.init (TwitlyClient.TweetsViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TwitlyClient.TweetsViewController&gt;"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812028.2202"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitlyClient/TweetsViewController.swift"
+            timestampString = "477814304.006002"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "TweetsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.__deallocating_deinit"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812029.40184"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.init (TwitlyClient.TweetsViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TwitlyClient.TweetsViewController"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812029.402017"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwitlyClient.TweetsViewController.init (TwitlyClient.TweetsViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TwitlyClient.TweetsViewController&gt;"
+                  moduleName = "TwitlyClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zkhan/Dropbox/Everything%20Else%20(1:28)/CodePath/TwitlyClient/TwitlyClient/TweetsViewController.swift"
+                  timestampString = "477812029.402115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitlyClient/TweetsViewController.swift"
+            timestampString = "477817970.198414"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
