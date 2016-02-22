@@ -7,16 +7,41 @@
 //
 
 import UIKit
+import BDBOAuth1Manager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: userDidLogoutNotification, object: nil)
+
+        if User.currentUser != nil {
+            // go to the logged in screen
+            print("current user detected!")
+
+            let vc : TweetsViewController = storyboard.instantiateViewControllerWithIdentifier("TweetsViewController") as! TweetsViewController
+            let navigationController = UINavigationController(rootViewController: vc)
+            window?.rootViewController = navigationController
+
+            /*
+            self.presentViewController(navigationController, animated: true, completion: nil)
+
+            let vc = storyboard.instantiateViewControllerWithIdentifier("TweetsViewController") as UIViewController
+            window?.rootViewController = vc
+            */
+        }
+
         return true
+    }
+
+    func userDidLogout() {
+        let vc = storyboard.instantiateInitialViewController()! as UIViewController
+        window?.rootViewController = vc
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -41,6 +66,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+
+        TwitterClient.sharedInstance.openURL(url)
+        return true
+    }
 
 }
 
